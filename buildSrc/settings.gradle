@@ -1,5 +1,9 @@
 pluginManagement {
 	repositories {
+		maven { url "http://mvnrepo.alibaba-inc.com/mvn/repository" }
+		maven { url "http://mvnrepo.alibaba-inc.com/mvn/snapshots" }
+		maven { url 'http://repo.alibaba-inc.com/nexus/content/repositories/public' }
+		maven { url "https://repo.spring.io/plugins-release" }
 		mavenCentral()
 		gradlePluginPortal()
 	}
